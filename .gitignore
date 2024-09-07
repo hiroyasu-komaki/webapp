@@ -1,0 +1,39 @@
+# General
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+
+api-server/venv/
+auth-server/venv/
+frontend-server/venv/
+
+# Node.js
+node_modules/
+
+api-server/node_modules/
+auth-server/node_modules/
+frontend-server/node_modules/
+
+# Java
+*.class
+target/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+api-server/.DS_Store
+auth-server/.DS_Store
+frontend-server/.DS_Store
+
+# Sensitive information
+.env
+config.yaml
+
+# Data filesData files

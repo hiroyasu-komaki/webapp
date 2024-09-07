@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to Flask!</h1>
+    <p>This is a static page served by Flask.</p>
+    <div class="container">
+        <label for="daysInput">Enter number of days:</label>
+        <input type="number" id="daysInput" placeholder="Enter number of days">
+    </div>
+    <div class="container">
+        <button id="dateButton">Show After Today's Date</button>
+    </div>
+    <div class="container">
+        <p id="dateDisplay"></p>
+    </div>
+
+    <h2>Register</h2>
+    <form id="registerForm">
+        <label for="registerUsername">Username:</label>
+        <input type="text" id="registerUsername" name="username" required>
+        <label for="registerPassword">Password:</label>
+        <input type="password" id="registerPassword" name="password" required>
+        <button type="submit">Register</button>
+    </form>
+    
+    <h2>Login</h2>
+    <form id="loginForm">
+        <label for="loginUsername">Username:</label>
+        <input type="text" id="loginUsername" name="username" required>
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" name="password" required>
+        <button type="submit">Login</button>
+    </form>
+    
+    <button id="logoutButton">Logout</button>
+    <div id="message"></div>
+</body>
+</html>
