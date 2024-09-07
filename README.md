@@ -96,6 +96,11 @@ project-root/
 │   ├── server.js
 │   ├── package.json
 │   └── package-lock.json
+├── db-server/
+│   ├── node_modules/
+│   ├── server.js
+│   ├── package.json
+│   └── package-lock.json
 └── README.md
 ```
 
